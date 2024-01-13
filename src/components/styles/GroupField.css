@@ -1,0 +1,37 @@
+/* GroupField.css */
+
+.group-subField {
+    background-color: #f7f7f7; /* Dark background color */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(109, 132, 180, 0.2); /* Bluish shadow */
+    margin-bottom: 20px;
+    padding: 15px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.group-subField:hover {
+    box-shadow: 0 8px 16px rgba(109, 132, 180, 0.3); /* Darker bluish shadow on hover */
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.info {
+    margin-left: 8px;
+    font-size: 14px;
+    color: #3498db;
+}
+
+.required {
+    margin-left: 4px;
+    color: red;
+}
+
+.sub-parameters {
+    padding-left: 20px;
+}

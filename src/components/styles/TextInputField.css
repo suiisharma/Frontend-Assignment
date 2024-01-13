@@ -1,0 +1,57 @@
+/* TextInputField.css */
+
+.input-field {
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(109, 132, 180, 0.2); /* Bluish shadow */
+  background-color: #f7f7f7; /* Dark background color */
+  padding: 15px;
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.input-field:hover {
+  box-shadow: 0 8px 16px rgba(109, 132, 180, 0.3); /* Darker bluish shadow on hover */
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.info {
+  margin-left: 5px;
+  font-size: 12px;
+  color: #3498db;
+}
+
+.required {
+  margin-left: 2px;
+  color: red;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.input:hover,
+.input:focus {
+  border-color: #3498db;
+  box-shadow: 0 4px 8px rgba(109, 132, 180, 0.1); /* Lighter bluish shadow on focus */
+}
+
+.error-div {
+  color: red;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+/* Additional styles for Tooltip if needed */
+.ant-tooltip-inner {
+  max-width: 250px;
+}

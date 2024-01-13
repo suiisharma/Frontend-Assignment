@@ -1,0 +1,50 @@
+/* SelectField.css */
+
+.select-field {
+    margin-bottom: 20px;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.info {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #3498db; /* Adjust the color as needed */
+}
+
+.required {
+    margin-left: 5px;
+    color: red;
+    font-size: 14px;
+}
+
+.select {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f7f7f7; /* Light background color */
+    box-shadow: 0 4px 8px rgba(109, 132, 180, 0.2); /* Bluish shadow */
+    transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.select:hover {
+    box-shadow: 0 8px 16px rgba(109, 132, 180, 0.3); /* Darker bluish shadow on hover */
+}
+
+/* Optional: Adjust the styles for the disabled state */
+.select:disabled {
+    background-color: #e0e0e0; /* Lighter background color for disabled state */
+    color: #777; /* Adjust the text color for disabled state */
+    border: 1px solid #ccc; /* Adjust the border color for disabled state */
+}
+
+/* Additional styles for Tooltip if needed */
+.ant-tooltip-inner {
+    max-width: 250px;
+}

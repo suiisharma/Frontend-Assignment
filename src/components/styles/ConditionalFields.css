@@ -1,0 +1,40 @@
+/* ConditionalInput.css */
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  span {
+    margin-left: 8px;
+    color: #888;
+  }
+  
+  input {
+    width: 200px;
+    padding: 8px;
+    margin: 4px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Adjust margin for subparameters */
+  div > div {
+    margin-top: 10px;
+  }
+  

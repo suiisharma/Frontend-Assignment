@@ -1,0 +1,43 @@
+/* FormPreview.css */
+
+.form-preview-container {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(109, 132, 180, 0.2); /* Bluish shadow */
+  background-color: #f7f7f7; /* Dark background color */}
+.form-preview-container:hover{
+  box-shadow: 0 8px 16px rgba(109, 132, 180, 0.3); /* Darker bluish shadow on hover */
+}
+.label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.info {
+  margin-left: 5px;
+  font-size: 14px;
+  color: #3498db; /* Adjust the color as needed */
+}
+
+.required {
+  margin-left: 5px;
+  color: red;
+  font-size: 14px;
+}
+
+.color>span{
+  color: #fff;
+}
+
+textarea.numbered {
+  background: url('https://i.imgur.com/2cOaJ.png');
+  background-attachment: local;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+  padding-top: 10px;
+  border-color:#ccc;
+}
