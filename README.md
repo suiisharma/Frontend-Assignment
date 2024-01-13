@@ -39,6 +39,11 @@ Please note that the line numbering in the textarea is limited to 1500 rows.
 This is because i’ve built everything from scratch without using any external libraries.
 I am actively working on improving this.
 
+### Mobile View:
+
+For the best experience, open the application in desktop mode when using it on a mobile device.
+Responsive design updates will be implemented shortly.
+
 ## 🧰 Technologies Used
 * React
 * Ant Design
